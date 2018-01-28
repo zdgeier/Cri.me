@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120e43a7012622e49aca0c9217acd1f9, type: 3}
+  m_Name: CityBuildingLayerVisualizer
+  m_EditorClassIdentifier: 
+  Active: 1
+  _classificationKey: 
+  _key: building
+  Filters: []
+  _defaultStack: {fileID: 11400000, guid: 590c34da9c44a3b4f9fcd47ea4e7caf6, type: 2}
+  Stacks:
+  - Type: crime
+    Types:
+    - crime
+    Stack: {fileID: 11400000, guid: 1b82c9db33215d34fb089f16b29bcb61, type: 2}
+  - Type: Crime_lightGreen
+    Types:
+    - Crime_lightGreen
+    Stack: {fileID: 11400000, guid: 10e89b0035f0c194cadac630361cdf51, type: 2}
+  - Type: Crime_Yellow
+    Types:
+    - Crime_Yellow
+    Stack: {fileID: 11400000, guid: 8ca584f8f0ebebb4ebd2658679e129e6, type: 2}
+  - Type: Crime_Orange
+    Types:
+    - Crime_Orange
+    Stack: {fileID: 11400000, guid: 37647b760956eb04fbf3b5fcaa081f1d, type: 2}
+  - Type: Crime_lightRed
+    Types:
+    - Crime_lightRed
+    Stack: {fileID: 11400000, guid: 0b22f57b73a2d6445baa0ae40c85333a, type: 2}
+  - Type: Crime_Red
+    Types:
+    - Crime_Red
+    Stack: {fileID: 11400000, guid: 612556c12a3862943bcaa6f65163b18c, type: 2}
+  _enableCoroutines: 0
+  _entityPerCoroutine: 20
